@@ -6,10 +6,10 @@ https://thousandiy.wordpress.com/2017/05/28/arduino-pro-mini-servo-shield/
 baudrate: 152000  
 1.Output received IR code to Serial port  
 2.Control servo angle from serial port  
-{CH}_{Command}  
-- CH: Servo No. (1-6)  
-- Command:  
-    - at: attach servo  
-    - dt: detach servo  
-    - 000-180: servo angle (need 3 digit)  
-- Finally the terminal character ";" is needed.
+- {CH}_{Command}  
+    - CH: Servo No. (1-6)  
+    - Command:  
+        - at: attach servo  
+        - dt: detach servo  
+        - 000-180: servo angle (need 3 digit)  
+    - Finally the terminal character ";" is needed.
